@@ -11,6 +11,12 @@
     "index.js",
     "README.md"
   ],
+  "keywords": [
+    "eslint",
+    "prettier",
+    "typescript",
+    "backend"
+  ],
   "peerDependencies": {
     "eslint": ">=8.38.0",
     "eslint-config-prettier": ">=8.8.0",
