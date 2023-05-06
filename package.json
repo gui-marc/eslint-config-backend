@@ -7,6 +7,10 @@
   "author": "Guilherme Marcondes <guilherme.marcondes@tecnico.ulisboa.pt>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "peerDependencies": {
     "eslint": ">=8.38.0",
     "eslint-config-prettier": ">=8.8.0",
