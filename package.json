@@ -1,6 +1,6 @@
 {
   "name": "@gui-marc/eslint-config-backend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Eslint + Prettier configs for backend projects with Typescript",
   "main": "index.js",
   "repository": "git@github.com:gui-marc/eslint-config-backend.git",
