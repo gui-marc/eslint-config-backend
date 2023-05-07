@@ -10,11 +10,20 @@ Install the package:
 npm install --save-dev @gui-marc/eslint-config-backend
 ```
 
+And install the peer dependencies:
+
+```bash
+npx install-peerdeps --dev @gui-marc/eslint-config-backend
+```
+
 Then add the config to your eslint config file:
 
 ```json
 {
-  "extends": "@gui-marc/eslint-config-backend"
+  "extends": "@gui-marc/eslint-config-backend",
+  "parserOptions": {
+    "project": "./tsconfig.json" // the path to your tsconfig.json file
+  }
 }
 ```
 
